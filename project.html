@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+        ul li{
+            display: flex;
+            align-items: center;
+        }
+        nav{
+            height: 10vh;
+            width: 100vw;
+            border: 2px solid;
+            /* background-color: black; */
+            color: aliceblue;
+            
+        }
+        article{
+            /* border: 2x solid red; */
+            height: inherit;
+            margin: 0px auto;
+            width: 90vw;
+            display: flex;
+            justify-content: space-between;
+
+           
+        }
+        .text{
+            /* border: 2px solid green; */
+            height: inherit;
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+            font-size: medium;
+        }
+        .icon{
+            /* border: 2px solid; */
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
+            align-items: center;
+            font-size: small;
+            
+        }
+        ul li:hover{
+            border-bottom: 4px solid rgb(red, green, blue);
+            border-radius: 2px;
+        }
+        video{
+            position: absolute;
+            z-index: -1;
+            height: 100vh;
+            width: 250vh;
+            object-fit: cover;
+        }
+        .content-x1{
+            color: white;
+            /* border: 2px solid; */
+            height: 300px;
+            width: 30%;
+            position: relative;
+            top: 200px;
+            left:100px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .content-x1 > h1{
+            font-size: 200px;
+            font-weight: 400;
+            margin-bottom: -20px ;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <video src="https://cdn.pixabay.com/video/2023/06/17/167659-837413029_large.mp4" controls autoplay muted></video>
+    <nav>
+        <article>
+            <ul class="text" type="none">
+                <li><img src="https://static.vecteezy.com/system/resources/previews/019/956/127/non_2x/bmw-transparent-bmw-free-free-png.png" alt="" height="30px" width="30px"></li>
+                <li>Model</li>
+                <li>Electric</li>
+                <li>Aboutus</li>
+                <li>More</li>
+            </ul>
+            <ul class="icon" type="none"> 
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+            </ul>
+        </article>
+    </nav>
+    <div class="content-x1">
+        <h4>The</h4>
+        <h1>iX1</h1>
+        <h2>LoNG WHeElBase</h2>
+        <p>Introducing price of Rs 49,00,000</p>
+        <button>Discover now</button>
+    </div>
+
+
+
+    </section>
+</body>
+</html>
